@@ -1,0 +1,184 @@
+@media (width > 768px){
+    .container{
+        background-image:
+        url(assets/back1-1.svg),
+        url(assets/back2-2.svg),
+        url(assets/back3-3.svg),
+        url(assets/back4-4.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 0%,80% 0%, 100% 10%, 0% 0%;
+    }
+    header{
+        padding-left: 5%;
+        padding-top: 70px;
+    }
+    .text1{
+        padding-right: 200px;
+    }
+    h1{
+        width: 520px;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727px;
+    }
+    h2{
+        width: 514px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .boss{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 250px;
+    }
+    .boss1{
+        width: 696px;
+    }
+    .boss1 img{
+        position: relative;
+        right: 160px;
+        bottom: -20px;
+        width: 270.206px;
+        height: 556px;
+        flex-shrink: 0;
+    }
+    .boss2{
+        position: relative;
+        z-index: 5;
+        top: -240px;
+        left: 70px;
+    }
+    .footermain{
+        display: flex;
+        flex-direction: row;
+        column-gap: 250px;
+        margin-top: -200px;
+    }
+    .socials{
+        margin-right: -230px;
+    }
+    .telefonii{
+        animation: updown infinite 5s linear; 
+    }
+    
+    @keyframes updown{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(30px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+}
+
+
+@media (width > 1439px){
+    header{
+        padding: 70px 0 0 0;
+        margin-bottom: 80px;
+    }
+    .container{
+        padding-left: 11%;
+    }
+    .text1{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+    }
+    h1{
+        width: 1015px;
+        color: #191826;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+    }
+    h2{
+        width: 825px;
+        color: #191826;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .boss{
+        width: 1110px;
+        height: 600px;
+        flex-shrink: 0;
+    }
+    .boss{
+        background-position: 38.8% 0;
+        width: 1110px;
+        height: 600px;
+        flex-shrink: 0;
+        margin-top: 80px;
+    }
+    .boss1 img{
+        width: 299.029px;
+        height: 628.63px;
+        flex-shrink: 0;
+        right: 312px;
+    }
+    .boss2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 446px;
+        height: 625px;
+        flex-shrink: 0;
+        left: 200px;
+    }
+    .Buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h3{
+        width: 333px;
+        color: #FCFAF9;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    h4{
+        width: 333px;
+        color: #FCFAF9;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    h5{
+        color: #FCFAF9;
+        font-size: 65px;
+        line-height: 52px;
+    }
+    span{
+        color: #FCFAF9;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: -0.2px;
+    }
+    .footertext{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 260px;
+    }
+    .telefonii{
+        animation: move infinite 15s linear;
+
+    }
+    @keyframes move {
+        0%{
+            transform: translateX(0);
+        }
+
+        50%{
+            transform: translateX(-100px);
+        }
+        100%{
+            transform: translateX(0);
+        }
+    }
+}
